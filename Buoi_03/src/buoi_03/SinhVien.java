@@ -137,6 +137,7 @@ public class SinhVien {
             System.out.println("Khong the them");
         }
     }
+    //Hai ham themHP xai ham nao cũng duoc
     public void xoaHP(){
         Scanner sc = new Scanner(System.in);
         String ten;
@@ -164,5 +165,5 @@ public class SinhVien {
         }
     }
     
-    
+    //Hai ham xoaHP xai ham nao cung duoc
 }
