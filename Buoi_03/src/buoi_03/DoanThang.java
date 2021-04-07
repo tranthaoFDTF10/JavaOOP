@@ -56,11 +56,11 @@ public class DoanThang {
         // truc hoanh co toa do(1,0);
         return Math.acos(Math.abs(b.giaTriX()-a.giaTriX())/this.tinhDoDai()); //this.doDai dang tham chieu toi gia tri do dai cua  toa do hien tai
         //tinh vo huong (AB*i) chia tich do dai(AB)*(i)
-        //ham Math.acos dang tinh gai tri radian cua goc
+        //ham Math.acos trả về gia tri radian cua goc
     }
     public double tinhDo(){
         double radian= Math.acos(Math.abs(b.giaTriX()-a.giaTriY())/this.tinhDoDai());
-        return Math.toDegrees(radian);
+        return Math.toDegrees(radian); //trả về bao nhiêu độ từ giá trị radian
     }
     
 }
