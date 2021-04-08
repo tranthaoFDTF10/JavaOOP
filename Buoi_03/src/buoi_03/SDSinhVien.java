@@ -67,6 +67,8 @@ public class SDSinhVien {
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
                 if(ds[i].getHoTen().compareTo(ds[j].getHoTen())>0){
+                    //phương thức compare so sánh chuỗi theo thứ tự từ điển. Nếu chuỗi 1 > chuỗi 2 trả về dương, ngược lại trả về âm
+                    // Nếu chuỗi 1 = chuỗi 2 trả về 0
                     tam=ds[i];
                     ds[i]=ds[j];
                     ds[j]=tam;
