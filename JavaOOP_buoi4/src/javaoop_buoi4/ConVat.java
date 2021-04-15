@@ -9,6 +9,9 @@ package javaoop_buoi4;
  *
  * @author Administrator
  */
+//Noi dung chu yeu: lam quen voi tinh da hinh
+//Day la Up casting: Khi bien cua lop cha tham chieu toi doi tuong cua lop con
+//(doi tuong cua lop con chuyen kieu du lieu ve lop cha), thi duoc goi la up casting
 public class ConVat {
     private String giong;
     private String mauLong;
