@@ -162,8 +162,6 @@ public class SinhVien {
         return kq;
     }
 
-    void nhapTT_TaiKhoan() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 }
 
