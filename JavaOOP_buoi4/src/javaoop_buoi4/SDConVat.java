@@ -16,6 +16,9 @@ public class SDConVat {
         d = new Bo();
         d.keu();
         System.out.println();
+        
+        //Tao danh sach cac con vat
+        
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap so luong dong vat: ");
         int n = sc.nextInt();
