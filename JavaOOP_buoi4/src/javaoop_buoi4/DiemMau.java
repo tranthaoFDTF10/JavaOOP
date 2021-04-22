@@ -19,8 +19,8 @@ public class DiemMau extends Diem { //thua ke
         super(); //tham chieu toi phuong thuc xay cua Diem
         mau = new String();
     }
-    public DiemMau(int x, int y, String mau){ //ham xay dung co tham so
-        super(x,y);
+    public DiemMau(int x1, int y1, String mau){ //ham xay dung co tham so
+        super(x1,y1);
         this.mau=mau;
     }
     public DiemMau(DiemMau m){ //ham xay dung sao chep
