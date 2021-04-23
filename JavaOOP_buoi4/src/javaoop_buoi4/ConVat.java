@@ -26,9 +26,7 @@ public abstract class ConVat {
         mauLong = new String(c.mauLong);
         canNang = c.canNang;
     }
-    public void keu(){
-        System.out.print("Con vat keu!");
-    }
+    public abstract void keu();
     public void nhap(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap giong cua dong vat: ");
